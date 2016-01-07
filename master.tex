@@ -1,0 +1,58 @@
+% !TeX encoding = UTF-8
+% !TeX root = master.tex
+% !TeX spellcheck = en_US
+
+\input{tex/preamble}
+\input{tex/glossaries}
+
+
+\begin{document}
+
+
+
+%---------------------------------------------------------------------------------------------------
+% Top matter
+%---------------------------------------------------------------------------------------------------
+
+\mainmatter
+\title{Title Capitalized}
+%\titlerunning{<Your abbreviated contribution title>}
+%\toctitle{<Your changed title for the table of contents>}
+%\subtitle{<subtitle of your contribution>}
+
+\author{Carlos M. Costa\inst{1}}
+%\authorrunning{<abbreviated author list>}
+%\tocauthor{<enhanced author list for the table of contents>}
+
+\institute{Faculty of Engineering, University of Porto\\
+	Rua Dr. Roberto Frias, s/n 4200-465 Porto, Portugal\\
+	\email{carlos.costa@fe.up.pt}
+}
+
+\maketitle
+\input{tex/abstract}
+
+
+%---------------------------------------------------------------------------------------------------
+% Sections
+%---------------------------------------------------------------------------------------------------
+
+\input{tex/sections/introduction}
+\input{tex/sections/related-work}
+\input{tex/sections/implementation}
+\input{tex/sections/results}
+\input{tex/sections/results-analysis}
+\input{tex/sections/conclusions}
+\input{tex/sections/acknowledgments}
+
+
+
+%---------------------------------------------------------------------------------------------------
+% Bibliography
+%---------------------------------------------------------------------------------------------------
+
+\bibliographystyle{splncs03}
+\bibliography{references}
+
+
+\end{document}
